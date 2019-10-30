@@ -1,5 +1,5 @@
 language: cpp
-dist: trusty
+#dist: trusty
 
 before_install:
     - eval "${MATRIX_EVAL}"
@@ -28,6 +28,6 @@ matrix:
           packages:
             - gcc-7
             - g++-7
-            - python-3.6
+              #            - python-3.6
       env:
          - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
