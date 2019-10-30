@@ -6,7 +6,7 @@ before_install:
 
 install:
   # Install conan
-  - pip install --user -q conan
+  - pip3 install --user -q conan
   # Automatic detection of your arch, compiler, etc.
   - conan user
 
