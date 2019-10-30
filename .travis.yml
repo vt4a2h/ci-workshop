@@ -9,7 +9,7 @@ install:
   # Install conan
   - sudo -E pip install conan
   # Automatic detection of your arch, compiler, etc.
-    - conan user
+  - conan user
 
 script:
   - cd hello
