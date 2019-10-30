@@ -7,8 +7,7 @@ install:
   - pip.exe install conan
   - conan user # Create the conan data directory
 
-build_script:
-  - cd hello 
+build_script: 
   - mkdir build && cd build
   - conan install .. --build
   - cmake .. -G "%CMAKE_GENERATOR%"
